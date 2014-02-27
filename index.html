@@ -4,19 +4,62 @@
         
         <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js">
         </script>
+        
+        <link href='http://fonts.googleapis.com/css?family=Varela+Round' rel='stylesheet' type='text/css'>
+        
+    <style>
+        #title {
+            color:red;
+        }
+        
+        body {
+            font-family: 'Varela Round', sans-serif;
+        }
+        
+        li {
+            width: 300px;
+        }
+        
+        ul {
+            width: 300px;
+        }
+        .gemPrice {
+            position: inherit;
+            float: right;
+        }
+        
+        .cityName {
+            font-weight: bold;
+        }
+        
+        .gemListing {
+            font-weight: normal;
+        }
+        li {
+            list-style-type: none;
+        }
+        
+        
+    </style>
     </head>
 
     <body>
-    <h2 id="title">Caira.</h2>
+    <h1 id="title">Caira.</h1>
+    <h2>Days: <span id="days"></span></h2>
+    <div class="resources">
+        Silver: <span id="silver"></span>
+        Topaz: <span id="topaz"></span>
+        Emeralds: <span id="emerald"></span>
+        Rubies: <span id="ruby"></span>
+        Diamonds: <span id="diamond"></span>
+        Coins: <span id="money"></span>
+    </div>
     <script src="caira.js">
     </script>
     
     <div id="gameContainer">
     
     
-    </div>
-    <ul id="cityList">
-    </ul>
     
     
     
