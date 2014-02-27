@@ -161,23 +161,14 @@ function displayInventory() {
         item = itemsList[i]
         $("#"+item).text(inventory[item]);
     }
-    
-    
-}
-function tick() {
-    
-    
 }
 
 
-    
 $(document).ready(function() { 
-    divPrint(game, Object.keys(cities)); 
-    
+    divPrint(game, Object.keys(cities));     
     setProperties();
     initializeInventory();
     display();
-    
     displayInventory();
 
 });

@@ -1,0 +1,73 @@
+* {
+margin: 0;
+padding: 0;
+}
+
+.resources {
+    margin-bottom: 30px;
+    padding-bottom: 30px;
+}
+
+div {
+    margin-left: auto;
+    margin-right: auto;
+
+}
+#gameContainer, .resources {
+    width: 600px;
+    margin-left: auto;
+    margin-left: auto;
+
+}
+
+#title {
+    color:black;
+    font-family: 'Audiowide', cursive;
+    font-size:40px;
+    font-weight: normal;
+    text-align: center;
+    margin-left: auto;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+}
+
+body {
+    font-family: 'Varela Round', sans-serif;
+    background-color:#3f4c6b;
+}
+
+li {
+    width: 480px;
+}
+
+ul {
+    width: 300px;
+}
+.gemPrice {
+    position: inherit;
+    float: right;
+    padding-right: 8px;
+    margin-right: 8px;
+}
+
+.sell, .buy {
+    float: right;
+    padding-left: 2px;
+    margin-left: 2px;
+}
+
+
+.cityName {
+    font-weight: bold;
+}
+
+.gemListing {
+    font-weight: normal;
+    margin-right: 50px;
+    padding-right: 30px;
+}
+li {
+    list-style-type: none;
+}
+
+
